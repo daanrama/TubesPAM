@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "quizkhaslampung",
+    "slug": "quizkhaslampung",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "packagerOpts": { 
+       "config": "metro.config.js", 
+       "sourceExts": [ "js","jsx","svg","ts","tsx"] 
+    },
+    "android": {
+      "package": "com.quizkhaslampung.quizkhaslampung",
+      "versionCode":1
+    },
+    "ios": {
+      "bundleIdentifier": "com.quizkhaslampung.quizkhaslampung",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
