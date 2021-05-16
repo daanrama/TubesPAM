@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useFirebase } from './Firebase/FirebaseContext';
-
+import { Link } from 'react-router-dom';
 export default function SkorTinggi() {
     const firebase = useFirebase();
     const [skors, setSkors] = useState([]);
@@ -42,6 +42,9 @@ export default function SkorTinggi() {
                             </li>
                         ))}
                     </div>
+            <Link to="/" className="btn">
+                Kembali
+            </Link>
                 </>
             )}
         </>
