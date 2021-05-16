@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
-import Home from './components/Home';
-import Game from './components/Game';
-import SkorTinggi from './components/SkorTinggi';
+import Home from './src/components/Home';
+import Game from './src/components/Game';
+import SkorTinggi from './src/components/SkorTinggi';
 
 function App() {
     return (
